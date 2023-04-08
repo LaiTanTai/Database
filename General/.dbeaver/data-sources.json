@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-1876130c93d-34a4d69bbff67de5": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "QLBanSach",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3308",
+				"database": "QLBanSach",
+				"url": "jdbc:mysql://localhost:3308/QLBanSach",
+				"configurationType": "MANUAL",
+				"home": "mysql_client",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
