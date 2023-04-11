@@ -1,15 +1,16 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql8-1876123d34b-54cff4806802da3b": {
+		"mysql8-1876130c93d-34a4d69bbff67de5": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "localhost",
+			"name": "QLBanSach",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
 				"port": "3308",
-				"url": "jdbc:mysql://localhost:3308/",
+				"database": "QLBanSach",
+				"url": "jdbc:mysql://localhost:3308/QLBanSach",
 				"configurationType": "MANUAL",
 				"home": "mysql_client",
 				"type": "dev",
